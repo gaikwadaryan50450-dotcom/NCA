@@ -1,7 +1,7 @@
-## NCA
+# 🎬 Netflix Content Analysis (NCA)
 A comprehensive data analysis, clustering, and content-based recommendation system built on the Netflix Titles dataset using Python, NLP, and Machine Learning techniques.
 
-# Project Objectives-
+## Project Objectives-
 Perform Exploratory Data Analysis (EDA) on Netflix content
 Clean and engineer features from raw metadata
 Apply Natural Language Processing (NLP) on titles and descriptions
@@ -11,7 +11,7 @@ A basic content-based recommender
 An improved hybrid recommender using text, genre, cast, and country
 Export enriched datasets for downstream use
 
-# Dataset-
+## Dataset-
 Source: Netflix Movies and TV Shows dataset
 File: netflix_titles.csv
 Key Attributes:
@@ -19,7 +19,7 @@ Title, Type, Description
 Cast, Country, Genre
 Date Added, Duration
 
-# Tech Stack & Libraries-
+## Tech Stack & Libraries-
 Python
 Pandas, NumPy – Data handling
 Matplotlib, Seaborn – Visualization
@@ -31,7 +31,7 @@ Scikit-learn
 -MultiLabelBinarizer
 WordCloud – Text visualization
 
-# Workflow Overview
+## Workflow Overview
 1️⃣ Setup
 1.Install required libraries
 2.Configure plotting styles
@@ -60,12 +60,12 @@ WordCloud – Text visualization
 4.Token length normalization
 5.WordCloud visualization
 
-# Machine Learning Components
-TF-IDF + KMeans Clustering-
+## Machine Learning Components
+### TF-IDF + KMeans Clustering-
 Vectorize cleaned text
 Apply KMeans clustering (k = 8)
 Interpret clusters via top keywords
 Assign cluster labels to each title
-Basic Content-Based Recommender-
+### Basic Content-Based Recommender-
 Uses cosine similarity on TF-IDF vectors
 Recommends titles based on description similarity
