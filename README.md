@@ -33,29 +33,39 @@ WordCloud – Text visualization
 
 # Workflow Overview
 1️⃣ Setup
-Install required libraries
-Configure plotting styles
-Download NLTK stopwords
+1.Install required libraries
+2.Configure plotting styles
+3.Download NLTK stopwords
 2️⃣ Data Loading
-Load dataset using Pandas
-Inspect structure and shape
+1.Load dataset using Pandas
+2.Inspect structure and shape
 3️⃣ Data Cleaning & Feature Engineering
-Handle missing values
-Normalize columns
-Extract:
+1.Handle missing values
+2.Normalize columns
+3.Extract:
 -Year added
 -Runtime in minutes
 -Genre lists
-Create combined text features for NLP
+4.Create combined text features for NLP
 4️⃣ Exploratory Data Analysis (EDA)
-Content type distribution (Movies vs TV Shows)
-Top genres on Netflix
-Titles added per year
-Runtime distribution
-Top content-producing countries
+1.Content type distribution (Movies vs TV Shows)
+2.Top genres on Netflix
+3.Titles added per year
+4.Runtime distribution
+5.Top content-producing countries
 5️⃣ Text Preprocessing
-Lowercasing
-URL and punctuation removal
-Stopword filtering
-Token length normalization
-WordCloud visualization
+1.Lowercasing
+2.URL and punctuation removal
+3.Stopword filtering
+4.Token length normalization
+5.WordCloud visualization
+
+# Machine Learning Components
+TF-IDF + KMeans Clustering-
+Vectorize cleaned text
+Apply KMeans clustering (k = 8)
+Interpret clusters via top keywords
+Assign cluster labels to each title
+Basic Content-Based Recommender-
+Uses cosine similarity on TF-IDF vectors
+Recommends titles based on description similarity
